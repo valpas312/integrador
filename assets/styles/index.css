@@ -219,6 +219,9 @@ header i:hover{
     iframe{
         display: none;
     }
+    .contact-form form{
+        width: 20vw;
+    }
 }
 /* Contact */
 #contact{
@@ -244,6 +247,18 @@ header i:hover{
         text-align: center;
     }
 }
+
+/* Form contacto */
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50vw;
+}
+form input:last-of-type{
+    height: 200px;
+}
+
 /* footer */
 .footer{
     display: flex;
